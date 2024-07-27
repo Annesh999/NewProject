@@ -1,0 +1,22 @@
+.main-content{
+    width: 100%;
+/* background-color: rgba(0, 0, 0, 0.909); */
+    /* padding: 0.6rem 0; */
+}
+
+.content-wrapper{
+    
+    display: flex;
+    flex-wrap: wrap;
+   gap: 3rem;
+   justify-content: center;
+
+}
+.background {
+    background: url("./images/file.png"); 
+   
+}
+.deco{
+color: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,148,233,1) 100%);
+
+}

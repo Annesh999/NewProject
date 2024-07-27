@@ -1,0 +1,30 @@
+
+.icon{
+   font-size: 3rem;
+   margin-bottom: 0;
+   
+}
+.count{
+   font-size: 3rem;
+}
+.text{
+   font-size: 1.4rem;
+}
+.Achivments{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1.6rem;
+}
+.Achivments-wrapper{
+   width: 100%;
+   /* background-color: blue; */
+   background: rgb(119,135,250);
+background: linear-gradient(90deg, rgba(119,135,250,1) 28%, rgba(180,58,157,1) 100%, rgba(82,96,196,1) 100%);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 6rem 0   ;
+   
+}

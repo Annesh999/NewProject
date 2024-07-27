@@ -1,0 +1,41 @@
+/* .item-deco{
+    /* width:200px; */
+ 
+.offers-inline{
+    display: inline;
+
+}
+.offers-deco-inside{
+    display: flex;
+    gap: 1rem;
+}
+
+.text-deco{
+    font-size: 1.5rem;
+}
+.text-2-deco{
+    color: #777777;
+    font-size: 1rem;
+    /* line-height-step: ; */
+    padding-top: 1.8rem;
+    color: rgb(244, 227, 227);
+}
+.item-deco{
+    font-size: 3rem;
+    
+}
+.offers-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    justify-content: center;
+    /* background: rgb(169,103,220);
+    background: linear-gradient(90deg, rgba(169,103,220,1) 100%, rgba(51,63,168,1) 100%); */ 
+    /* background: rgb(119,135,250); */
+background: linear-gradient(90deg, rgba(119,135,250,1) 28%, rgba(180,58,157,1) 100%, rgba(82,96,196,1) 100%); 
+  padding: 6rem;
+    font-weight: 300;
+
+    
+}

@@ -1,0 +1,40 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+} */
+.navbar{
+    width: 100%;
+    height: 80px;
+    /* background-image: linear-gradient(to right, #8360c3, #2ebf91); */
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,148,233,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 20px;
+  
+ 
+}
+
+.navbar li{
+  margin-right: 0.8rem  ;
+  /* margin-top: 1.8rem; */
+  cursor: pointer;
+}
+
+
+
+.profile-deco{
+    font-size: 2.3rem;
+    margin-right: 0.8rem;
+    cursor: pointer;
+    color: rgba(12, 11, 12, 0.837);
+}
+.profile-deco :hover{
+    color: rgb(111, 65, 65);
+}

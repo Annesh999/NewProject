@@ -1,0 +1,32 @@
+.wrapper{
+    width: 100%;
+      display: flex;
+    /* background-color: blueviolet; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-deco{
+width: 70%;
+    display: flex;
+    list-style-type: none;
+    justify-content:right;
+    /* background-color: brown; */
+    font-weight: 500;
+    gap: 5rem;
+
+}   
+
+    .profile-deco{
+        width: 70px;
+        font-size: 2.3rem;
+        margin-right: 0.8rem;
+        cursor: pointer;
+        color: rgba(12, 11, 12, 0.837);
+        
+    
+    }
+    .profile-deco :hover{
+        color: rgb(31, 10, 10);
+
+    }

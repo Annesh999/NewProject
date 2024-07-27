@@ -1,0 +1,98 @@
+.profile-wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    width: 89%;
+    height: 400;    
+ background-color: #0e1421; 
+    border-radius: 10px;
+    margin-top: 3rem;
+
+}
+label{
+    color: white;
+}
+
+.left-deco{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    margin-left: 0.5rem;
+}
+.right-deco{
+    display: flex;  
+    font-size: 1.2rem;
+    align-items: center;
+    color: rgb(196, 35, 35);
+    cursor: pointer;
+    gap:0.4rem;
+}
+.reset-icon{
+    font-size: 2.5rem;
+    color: rgb(196, 35, 35);
+}
+.left-deco img{
+    width: 3rem;
+    border-radius: 2rem;
+    display: inline;
+}
+.profile-wrapper p{
+    display: inline;
+    text-align: end;
+
+}
+.profile-text-deco{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.user-info-inside label{
+    font-weight: 600;
+    padding: 0.5rem;
+}
+.user-info-inside input[type="text"]{
+    width: 540px;
+    padding: 0.5rem;
+    border: 1px solid #B7B7B7;
+    border-radius: 5px;
+   outline: none;
+  font-weight: 400;
+}
+.user-info{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-around;
+    padding: 1.3rem;   
+}
+.user-info-inside{
+    padding: 1rem;
+    width: 50%;
+   font-size:larger;
+}
+.btn-save{
+    background-color: rgba(216, 77, 26, 0.694);
+     padding:0.7rem;
+     border-radius: 7px;
+     margin: 1.3rem;
+     color: antiquewhite;
+    }
+.btn-delete{
+    background-color: rgba(255, 0, 0, 0.858);
+    padding:0.7rem;
+    border-radius: 7px;
+    margin: 1.3rem;
+    color: antiquewhite;
+    
+
+}
+.btn-style{
+ display: flex;
+ justify-content: space-between;
+}
